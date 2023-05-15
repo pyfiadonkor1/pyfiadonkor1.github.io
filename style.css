@@ -147,6 +147,17 @@ nav ul li:hover a {
 
 }
 
+.text a {
+color: #ffffff; /* Sets the link color to blue */
+text-decoration: none; /* Removes underline */
+transition: all 0.3s ease; /* Adds a transition effect */
+}
+
+.text a:hover {
+color: rgb(20, 255, 243); /* Changes the link color to red on hover */
+text-decoration: underline; /* Adds underline on hover */
+}
+
 .image img {
     width: 400px;
     position: absolute;

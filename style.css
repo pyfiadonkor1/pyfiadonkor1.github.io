@@ -467,7 +467,9 @@ text-decoration: underline; /* Adds underline on hover */
         width: 50%;
 }
         
-
+.skillBox .right .progress.powerB .range::before {
+    width: 50%;
+}
 
 #contact {
     background: #121212;
